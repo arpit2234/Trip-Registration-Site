@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    max-width:  80%;
+    background-color: aqua;
+    padding: 34px;
+    margin: auto;
+}
+.container h3{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(140, 209, 127);
+    font-family: 'Abel', sans-serif;
+}
+.container p{
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+input,textarea{
+    width: 80%;
+    margin: 10px ;
+    font-size: 16px;
+    padding: 7px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn
+{
+    color: seashell;
+    background-color: tan;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: tomato;
+    font-weight: bolder;
+}
